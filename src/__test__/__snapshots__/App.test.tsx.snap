@@ -1,0 +1,241 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App Component > renders correctly and matches snapshot 1`] = `
+<div>
+  <div
+    class="w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100"
+  >
+    <div
+      class="bg-[#151515] flex flex-col gap-4 items-start p-4 relative w-72 rounded-lg"
+      data-name="Unit value"
+    >
+      <div
+        class="flex gap-2 items-center relative shrink-0 w-60"
+        data-name="Setting Layout - Control & Action"
+      >
+        <div
+          class="flex flex-1 gap-1 h-9 items-center relative shrink-0"
+          data-name="Setting title"
+        >
+          <p
+            class="font-sans font-normal leading-5 text-[#aaa] text-sm"
+          >
+            Unit
+          </p>
+        </div>
+        <div
+          class="flex items-start relative shrink-0"
+          data-name="Control / Option Control"
+        >
+          <div
+            class="bg-[#212121] flex gap-0.5 items-start p-0.5 relative rounded-lg shrink-0 w-40"
+          >
+            <button
+              class="flex flex-1 h-8 items-center justify-center relative rounded-md shrink-0 transition-colors cursor-pointer bg-[#3B3B3B] text-[#f9f9f9]"
+            >
+              <p
+                class="font-medium leading-5 text-sm text-center"
+              >
+                %
+              </p>
+            </button>
+            <button
+              class="flex flex-1 h-8 items-center justify-center relative rounded-md shrink-0 transition-colors cursor-pointer text-[#aaa] hover:bg-[#3B3B3B]"
+            >
+              <p
+                class="font-medium leading-5 text-sm text-center"
+              >
+                px
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex gap-2 items-center relative shrink-0 w-60"
+        data-name="Setting Layout - Control & Action"
+      >
+        <div
+          class="flex flex-1 gap-1 h-9 items-center relative shrink-0"
+          data-name="Setting Title"
+        >
+          <p
+            class="font-sans font-normal leading-5 text-[#aaa] text-sm"
+          >
+            Value
+          </p>
+        </div>
+        <div
+          class="group flex h-9 items-center relative rounded-lg shrink-0 w-40 transition-all duration-200 border border-transparent"
+        >
+          <button
+            aria-label="Decrease value"
+            class="bg-[#212121] flex items-center justify-center h-full aspect-square shrink-0 transition-colors cursor-pointer group-has-[.input-area:hover]:bg-[#3B3B3B]  hover:bg-[#3B3B3B] rounded-l-lg"
+          >
+            <svg
+              fill="none"
+              height="2"
+              viewBox="0 0 12 2"
+              width="12"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M0 0.75C0 0.335786 0.335786 0 0.75 0L11.25 0C11.6642 0 12 0.335786 12 0.75C12 1.16421 11.6642 1.5 11.25 1.5H0.75C0.335786 1.5 0 1.16421 0 0.75Z"
+                fill="#F9F9F9"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <div
+            class="flex flex-1 h-full items-center justify-center px-2 relative shrink-0 input-area bg-[#212121] hover:bg-[#3B3B3B]"
+          >
+            <input
+              class="w-full bg-transparent border-none outline-none font-normal leading-5 text-[#f9f9f9] text-sm text-center p-0 placeholder-[#555]"
+              type="text"
+              value="1"
+            />
+          </div>
+          <button
+            aria-label="Increase value"
+            class="bg-[#212121] flex items-center justify-center h-full aspect-square shrink-0 transition-colors cursor-pointer group-has-[.input-area:hover]:bg-[#3B3B3B]  hover:bg-[#3B3B3B] rounded-r-lg"
+          >
+            <svg
+              fill="none"
+              height="12"
+              viewBox="0 0 12 12"
+              width="12"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.75 0.75C6.75 0.335786 6.41421 0 6 0C5.58579 0 5.25 0.335786 5.25 0.75V5.25H0.75C0.335786 5.25 0 5.58579 0 6C0 6.41421 0.335786 6.75 0.75 6.75H5.25L5.25 11.25C5.25 11.6642 5.58579 12 6 12C6.41421 12 6.75 11.6642 6.75 11.25V6.75H11.25C11.6642 6.75 12 6.41421 12 6C12 5.58579 11.6642 5.25 11.25 5.25H6.75V0.75Z"
+                fill="#F9F9F9"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`toUpperCase 1`] = `
+<DocumentFragment>
+  <div
+    class="w-screen h-screen bg-neutral-950 flex items-center justify-center text-neutral-100"
+  >
+    <div
+      class="bg-[#151515] flex flex-col gap-4 items-start p-4 relative w-72 rounded-lg"
+      data-name="Unit value"
+    >
+      <div
+        class="flex gap-2 items-center relative shrink-0 w-60"
+        data-name="Setting Layout - Control & Action"
+      >
+        <div
+          class="flex flex-1 gap-1 h-9 items-center relative shrink-0"
+          data-name="Setting title"
+        >
+          <p
+            class="font-sans font-normal leading-5 text-[#aaa] text-sm"
+          >
+            Unit
+          </p>
+        </div>
+        <div
+          class="flex items-start relative shrink-0"
+          data-name="Control / Option Control"
+        >
+          <div
+            class="bg-[#212121] flex gap-0.5 items-start p-0.5 relative rounded-lg shrink-0 w-40"
+          >
+            <button
+              class="flex flex-1 h-8 items-center justify-center relative rounded-md shrink-0 transition-colors cursor-pointer bg-[#3B3B3B] text-[#f9f9f9]"
+            >
+              <p
+                class="font-medium leading-5 text-sm text-center"
+              >
+                %
+              </p>
+            </button>
+            <button
+              class="flex flex-1 h-8 items-center justify-center relative rounded-md shrink-0 transition-colors cursor-pointer text-[#aaa] hover:bg-[#3B3B3B]"
+            >
+              <p
+                class="font-medium leading-5 text-sm text-center"
+              >
+                px
+              </p>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex gap-2 items-center relative shrink-0 w-60"
+        data-name="Setting Layout - Control & Action"
+      >
+        <div
+          class="flex flex-1 gap-1 h-9 items-center relative shrink-0"
+          data-name="Setting Title"
+        >
+          <p
+            class="font-sans font-normal leading-5 text-[#aaa] text-sm"
+          >
+            Value
+          </p>
+        </div>
+        <div
+          class="group flex h-9 items-center relative rounded-lg shrink-0 w-40 transition-all duration-200 border border-transparent"
+        >
+          <button
+            aria-label="Decrease value"
+            class="bg-[#212121] flex items-center justify-center h-full aspect-square shrink-0 transition-colors cursor-pointer group-has-[.input-area:hover]:bg-[#3B3B3B]  hover:bg-[#3B3B3B] rounded-l-lg"
+          >
+            <svg
+              fill="none"
+              height="2"
+              viewBox="0 0 12 2"
+              width="12"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                clip-rule="evenodd"
+                d="M0 0.75C0 0.335786 0.335786 0 0.75 0L11.25 0C11.6642 0 12 0.335786 12 0.75C12 1.16421 11.6642 1.5 11.25 1.5H0.75C0.335786 1.5 0 1.16421 0 0.75Z"
+                fill="#F9F9F9"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </button>
+          <div
+            class="flex flex-1 h-full items-center justify-center px-2 relative shrink-0 input-area bg-[#212121] hover:bg-[#3B3B3B]"
+          >
+            <input
+              class="w-full bg-transparent border-none outline-none font-normal leading-5 text-[#f9f9f9] text-sm text-center p-0 placeholder-[#555]"
+              type="text"
+              value="1"
+            />
+          </div>
+          <button
+            aria-label="Increase value"
+            class="bg-[#212121] flex items-center justify-center h-full aspect-square shrink-0 transition-colors cursor-pointer group-has-[.input-area:hover]:bg-[#3B3B3B]  hover:bg-[#3B3B3B] rounded-r-lg"
+          >
+            <svg
+              fill="none"
+              height="12"
+              viewBox="0 0 12 12"
+              width="12"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6.75 0.75C6.75 0.335786 6.41421 0 6 0C5.58579 0 5.25 0.335786 5.25 0.75V5.25H0.75C0.335786 5.25 0 5.58579 0 6C0 6.41421 0.335786 6.75 0.75 6.75H5.25L5.25 11.25C5.25 11.6642 5.58579 12 6 12C6.41421 12 6.75 11.6642 6.75 11.25V6.75H11.25C11.6642 6.75 12 6.41421 12 6C12 5.58579 11.6642 5.25 11.25 5.25H6.75V0.75Z"
+                fill="#F9F9F9"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
